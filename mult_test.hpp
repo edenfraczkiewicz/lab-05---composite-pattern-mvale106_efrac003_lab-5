@@ -34,7 +34,7 @@ TEST(MultTest, MultiplyString) {
 	Base* val1 = new Op(3.0);
         Base* val2 = new Op(4.0);
         Base* test = new Mult(val1, val2);
-	string str = "3.000000 * 4.000000";
+	string str = "3.000000*4.000000";
         EXPECT_EQ(test->stringify(), str);
 }
 
