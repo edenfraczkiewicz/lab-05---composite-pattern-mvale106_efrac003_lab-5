@@ -18,4 +18,4 @@ class Op : public Base {
         virtual string stringify() { return str; }
 };
 
-#endif //__OP_HPP__
+#endif //__OP_HPP___
