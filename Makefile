@@ -254,6 +254,36 @@ gtest/fast:
 	$(MAKE) $(MAKESILENT) -f googletest/googletest/CMakeFiles/gtest.dir/build.make googletest/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
+add.o: add.cpp.o
+
+.PHONY : add.o
+
+# target to build an object file
+add.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/add.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/add.cpp.o
+.PHONY : add.cpp.o
+
+add.i: add.cpp.i
+
+.PHONY : add.i
+
+# target to preprocess a source file
+add.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/add.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/add.cpp.i
+.PHONY : add.cpp.i
+
+add.s: add.cpp.s
+
+.PHONY : add.s
+
+# target to generate assembly for a file
+add.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/add.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/add.cpp.s
+.PHONY : add.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -280,6 +310,66 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+pow.o: pow.cpp.o
+
+.PHONY : pow.o
+
+# target to build an object file
+pow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/pow.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/pow.cpp.o
+.PHONY : pow.cpp.o
+
+pow.i: pow.cpp.i
+
+.PHONY : pow.i
+
+# target to preprocess a source file
+pow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/pow.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/pow.cpp.i
+.PHONY : pow.cpp.i
+
+pow.s: pow.cpp.s
+
+.PHONY : pow.s
+
+# target to generate assembly for a file
+pow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/pow.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/pow.cpp.s
+.PHONY : pow.cpp.s
+
+sub.o: sub.cpp.o
+
+.PHONY : sub.o
+
+# target to build an object file
+sub.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/sub.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/sub.cpp.o
+.PHONY : sub.cpp.o
+
+sub.i: sub.cpp.i
+
+.PHONY : sub.i
+
+# target to preprocess a source file
+sub.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/sub.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/sub.cpp.i
+.PHONY : sub.cpp.i
+
+sub.s: sub.cpp.s
+
+.PHONY : sub.s
+
+# target to generate assembly for a file
+sub.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/sub.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/sub.cpp.s
+.PHONY : sub.cpp.s
 
 unit_test.o: unit_test.cpp.o
 
@@ -326,9 +416,18 @@ help:
 	@echo "... gtest_main"
 	@echo "... lab"
 	@echo "... test"
+	@echo "... add.o"
+	@echo "... add.i"
+	@echo "... add.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... pow.o"
+	@echo "... pow.i"
+	@echo "... pow.s"
+	@echo "... sub.o"
+	@echo "... sub.i"
+	@echo "... sub.s"
 	@echo "... unit_test.o"
 	@echo "... unit_test.i"
 	@echo "... unit_test.s"

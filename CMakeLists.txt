@@ -8,22 +8,22 @@ ADD_EXECUTABLE(test
     	unit_test.cpp
 	sub.cpp
         unit_test.cpp
-        rand.cpp
-        op.cpp
+        rand.hpp
+        op.hpp
         add.cpp
-        mult.cpp
-	div.cpp
+        mult.hpp
+	div.hpp
 	pow.cpp
 )
 
 ADD_EXECUTABLE(lab
 	main.cpp
 	sub.cpp
-	rand.cpp
-	op.cpp
+	rand.hpp
+	op.hpp
 	add.cpp
-	mult.cpp
-	div.cpp
+	mult.hpp
+	div.hpp
 	pow.cpp
 )
 

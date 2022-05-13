@@ -90,17 +90,62 @@ CMakeFiles/lab.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/main.cpp -o CMakeFiles/lab.dir/main.cpp.s
 
+CMakeFiles/lab.dir/sub.cpp.o: CMakeFiles/lab.dir/flags.make
+CMakeFiles/lab.dir/sub.cpp.o: sub.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab.dir/sub.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab.dir/sub.cpp.o -c /home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/sub.cpp
+
+CMakeFiles/lab.dir/sub.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab.dir/sub.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/sub.cpp > CMakeFiles/lab.dir/sub.cpp.i
+
+CMakeFiles/lab.dir/sub.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab.dir/sub.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/sub.cpp -o CMakeFiles/lab.dir/sub.cpp.s
+
+CMakeFiles/lab.dir/add.cpp.o: CMakeFiles/lab.dir/flags.make
+CMakeFiles/lab.dir/add.cpp.o: add.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab.dir/add.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab.dir/add.cpp.o -c /home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/add.cpp
+
+CMakeFiles/lab.dir/add.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab.dir/add.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/add.cpp > CMakeFiles/lab.dir/add.cpp.i
+
+CMakeFiles/lab.dir/add.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab.dir/add.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/add.cpp -o CMakeFiles/lab.dir/add.cpp.s
+
+CMakeFiles/lab.dir/pow.cpp.o: CMakeFiles/lab.dir/flags.make
+CMakeFiles/lab.dir/pow.cpp.o: pow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab.dir/pow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab.dir/pow.cpp.o -c /home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/pow.cpp
+
+CMakeFiles/lab.dir/pow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab.dir/pow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/pow.cpp > CMakeFiles/lab.dir/pow.cpp.i
+
+CMakeFiles/lab.dir/pow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab.dir/pow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/pow.cpp -o CMakeFiles/lab.dir/pow.cpp.s
+
 # Object files for target lab
 lab_OBJECTS = \
-"CMakeFiles/lab.dir/main.cpp.o"
+"CMakeFiles/lab.dir/main.cpp.o" \
+"CMakeFiles/lab.dir/sub.cpp.o" \
+"CMakeFiles/lab.dir/add.cpp.o" \
+"CMakeFiles/lab.dir/pow.cpp.o"
 
 # External object files for target lab
 lab_EXTERNAL_OBJECTS =
 
 lab: CMakeFiles/lab.dir/main.cpp.o
+lab: CMakeFiles/lab.dir/sub.cpp.o
+lab: CMakeFiles/lab.dir/add.cpp.o
+lab: CMakeFiles/lab.dir/pow.cpp.o
 lab: CMakeFiles/lab.dir/build.make
 lab: CMakeFiles/lab.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lab"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable lab"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

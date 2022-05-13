@@ -4,6 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/add.cpp" "/home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/CMakeFiles/test.dir/add.cpp.o"
+  "/home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/pow.cpp" "/home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/CMakeFiles/test.dir/pow.cpp.o"
+  "/home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/sub.cpp" "/home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/CMakeFiles/test.dir/sub.cpp.o"
   "/home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/unit_test.cpp" "/home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/CMakeFiles/test.dir/unit_test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
