@@ -128,7 +128,7 @@ op.hpp
 
 /home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/unit_test.cpp
 gtest/gtest.h
-/home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/gtest/gtest.h
+-
 op_test.hpp
 /home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/op_test.hpp
 rand_test.hpp
