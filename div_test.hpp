@@ -34,7 +34,7 @@ TEST(DivTest, DivideString) {
         Base* val1 = new Op(12.0);
         Base* val2 = new Op(4.0);
         Base* test = new Div(val1, val2);
-        string str = "12.0 / 4.0";
+        string str = "12.000000/4.000000";
         EXPECT_EQ(test->stringify(), str);
 }
 
