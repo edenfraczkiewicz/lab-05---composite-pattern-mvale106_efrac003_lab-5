@@ -4,6 +4,7 @@
 /home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/CMakeFiles/list_install_components.dir
 /home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/CMakeFiles/rebuild_cache.dir
 /home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/CMakeFiles/edit_cache.dir
+/home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/CMakeFiles/lab.dir
 /home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/CMakeFiles/test.dir
 /home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/googletest/CMakeFiles/install/strip.dir
 /home/csmajs/mvale106/lab-05---composite-pattern-mvale106_efrac003_lab-5/googletest/CMakeFiles/install/local.dir
